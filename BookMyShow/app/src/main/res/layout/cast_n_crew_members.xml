@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="vertical">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleView_member"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/voice" />
+
+    <TextView
+        android:id="@+id/crew_name"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/circleView_member"
+        android:text="Shah rukh Khan" />
+
+</RelativeLayout>
